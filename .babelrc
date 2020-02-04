@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        [
+            "module-alias",
+            {
+                "src": "src/",
+                "expose": "./"
+            }
+        ]
+    ]
+}
